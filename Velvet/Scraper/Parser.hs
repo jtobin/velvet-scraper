@@ -15,15 +15,15 @@ import qualified Data.Vector as Vector (fromList)
 import GHC.Generics
 
 data VelvetInfo = VelvetInfo {
-    assembly_id                  :: Text
-  , exp_cov                    :: Int
-  , cov_cutoff                 :: Double
-  , hash_value                 :: Int
-  , total_contigs              :: Int
-  , n50                       :: Int
-  , longest_contig_length       :: Int
-  , total_bases                :: Int
-  , num_contigs_over_1k          :: Int
+    assembly_id                    :: Text
+  , exp_cov                        :: Int
+  , cov_cutoff                     :: Double
+  , hash_value                     :: Int
+  , total_contigs                  :: Int
+  , n50                            :: Int
+  , longest_contig_length          :: Int
+  , total_bases                    :: Int
+  , num_contigs_over_1k            :: Int
   , total_bases_in_contigs_over_1k :: Int
   } deriving (Show, Generic)
 
